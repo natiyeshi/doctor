@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <script type="text/javascript" src="js/bootstrap.bundle.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg bg-light fixed-top ">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">DOCTOR</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+           
+                <li class="nav-item">
+                    <a class="nav-link " href="check.html">check me</a>
+                  </li>
+            
+                  <li class="nav-item">
+                    <a class="nav-link text-danger" href="register.html">Register</a>
+                  </li>
+            
+                  <li class="nav-item">
+                    <a class="nav-link" href="patient.html">patient</a>
+                  </li>
+                        
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+       
+      </nav>
+
+      <section class="vh-100 gradient-custom mt-5">
+        <div class="container py-5 h-100">
+          <div class="row justify-content-center align-items-center h-100">
+            <div class="col-12 col-lg-9 col-xl-7">
+              <div class="card shadow-2-strong card-registration" style="border-radius: 15px;">
+                <div class="card-body p-4 p-md-5">
+                  <h3 class="mb-4 pb-2 pb-md-0 mb-md-5">Registration Form</h3>
+                  <form>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4">
+      
+                        <div class="form-outline">
+                          <input type="text" id="firstName" class="form-control form-control-lg" />
+                          <label class="form-label" for="firstName">First Name</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4">
+      
+                        <div class="form-outline">
+                          <input type="text" id="lastName" class="form-control form-control-lg" />
+                          <label class="form-label" for="lastName">Last Name</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4 d-flex align-items-center">
+      
+                        <div class="form-outline datepicker w-100">
+                          <input type="number" class="form-control form-control-lg" id="age" />
+                          <label for="birthdayDate" class="form-label">Age</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4">
+      
+                        <h6 class="mb-2 pb-1">Gender: </h6>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="femaleGender"
+                            value="option1" checked />
+                          <label class="form-check-label" for="femaleGender">Female</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="maleGender"
+                            value="option2" />
+                          <label class="form-check-label" for="maleGender">Male</label>
+                        </div>
+      
+                        <div class="form-check form-check-inline">
+                          <input class="form-check-input" type="radio" name="inlineRadioOptions" id="otherGender"
+                            value="option3" />
+                          <label class="form-check-label" for="otherGender">Other</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-md-6 mb-4 pb-2">
+      
+                        <div class="form-outline">
+                          <input type="email" id="emailAddress" class="form-control form-control-lg" />
+                          <label class="form-label" for="emailAddress">Email</label>
+                        </div>
+      
+                      </div>
+                      <div class="col-md-6 mb-4 pb-2">
+      
+                        <div class="form-outline">
+                            <label for="phone">Enter your phone number:</label>
+
+                          
+                          <input type="phone" id="phoneNumber" class="form-control form-control-lg" />
+                          <label class="form-label" for="phoneNumber">Phone Number</label>
+                        </div>
+      
+                      </div>
+                    </div>
+      
+                    <div class="row">
+                      <div class="col-12">
+      
+                        <select class="select form-control-lg">
+                          <option value="1" disabled>Choose option</option>
+                          <option value="2">Subject 1</option>
+                          <option value="3">Subject 2</option>
+                          <option value="4">Subject 3</option>
+                        </select>
+                        <label class="form-label select-label">Choose option</label>
+      
+                      </div>
+                    </div>
+      
+                    <div class="mt-4 pt-2 text-center">
+                      <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
+                    </div>
+      
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br><br><br><br><br><br>  
+  <div class="row  bg-light p-lg-5 p-3">
+    <div class="col-4">
+       <div class="fs-1">Mission</div> 
+   <div class="child">Integrations</div>
+   <div class="child">Features</div>
+   <div class="child">Pricing</div>
+   <div class="child">Industries</div> 
+</div>   
+<div class="col-4">
+   <div class="fs-1"> Blog </div>
+<div class="child">Guides</div>
+<div class="child">Partners</div>
+<div class="child">Support</div>
+<div class="child">Privacy Policy</div>
+
+</div>
+<div class="col-4">
+   <div class="fs-1">About</div>  
+<div class="child"> Terms of Use</div>
+<div class="child">Status</div>
+<div class="child">Sitemap</div>
+<div class="child">Blog Sitemap</div>
+
+</div>
+
+<br><br><br><br><br><br><br><br>   
+</div>
+
+    
+</body>
+</html>
